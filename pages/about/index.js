@@ -136,7 +136,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
   return (
-    <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+    <div className='h-full bg-primary/30 py-32 text-center xl:text-left overflow-y-scroll'>
       <ParticlesContainer />
       <Circles />
       {/* avatar img */}
@@ -233,7 +233,7 @@ const About = () => {
               );
             })}
           </div>
-          <div className='py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start'>
+          <div className='py-2 pb-24 md:pb-0 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start'>
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
