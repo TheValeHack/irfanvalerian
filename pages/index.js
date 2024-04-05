@@ -37,7 +37,7 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            Hello, I'm Irfan, a dedicated and hardworker programmer who's ready to develop anything for you. Tell me any of you ideas and I'll make it real right away!
+            Hello, I&apos;m Irfan, a dedicated and hardworker programmer who&apos;s ready to develop anything for you. Tell me any of you ideas and I&apos;ll make it real right away!
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

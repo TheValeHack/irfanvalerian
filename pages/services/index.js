@@ -33,7 +33,7 @@ const Services = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              I've done quite a lot of work to help my clients. Here are some of the services I provide. But, i open for another services too (if i could). Just contact me!
+              I&apos;ve done quite a lot of work to help my clients. Here are some of the services I provide. But, i open for another services too (if i could). Just contact me!
 
 
             </motion.p>
